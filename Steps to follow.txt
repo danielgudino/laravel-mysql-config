@@ -1,6 +1,7 @@
 Paso 1:
   - cd laravel-mysql-config
   - git clone https://github.com/{USUARIOXXXX}/laravel-php.git
+    Nota: Si no tiene un proyecto con el repositorio laravel-php debe crearlo, en este es donde se aloja el codigo de su proyecto.
 
 Paso 2:
   - docker network create Webdevelopment

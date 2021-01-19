@@ -49,7 +49,7 @@ services:
     expose:
       - "3306"
     ports:
-      - "33062:3306"
+      - "33064:3306"
     command: --default-authentication-plugin=mysql_native_password
     environment:
       - MYSQL_DATABASE=laravel
