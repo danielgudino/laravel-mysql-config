@@ -1,0 +1,23 @@
+Paso 1:
+  - cd laravel-mysql-config
+  - git clone https://github.com/{USUARIOXXXX}/laravel-php.git
+
+Paso 2:
+  - docker network create Webdevelopment
+  - docker volume create laraveldbdata
+
+Pase 3:
+  - cd laravel-php
+  - git checkout dev
+  - git branch
+  - cp .env.example .env
+  
+cd laravel-php-config (cd ..)
+
+Paso 4:
+  - docker-compose build
+  - docker-compose up -d
+  - docker-compose exec laravel-app composer install
+  - docker-compose exec laravel-app php artisan key:generate
+  - docker-compose exec laravel-app php artisan migrate
+  - docker-compose exec laravel-app php artisan passport:install
