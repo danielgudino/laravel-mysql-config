@@ -25,10 +25,8 @@ Welcome, in this repository you can find the necessary configuration so that you
   - **Note:** The laravel-mysql repository hosts the source code of your project.
 
 ##### [Docker]
-- **2.** create manual network: 
-   - **docker network create Webdevelopment**
-- **3.** create manual volume database: 
-   - **docker volume create laraveldbdata**
+- **2.** create manual network: **docker network create Webdevelopment**
+- **3.** create manual volume database: **docker volume create laraveldbdata**
 
 ##### [Docker Compose]
 - **4.** docker-compose **build**
