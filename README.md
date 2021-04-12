@@ -13,7 +13,7 @@
 
 Welcome, in this repository you can find the necessary configuration so that you can implement your laravel application with docker in the best way.
 
-## Installation requirements:
+## Requirements:
 - docker
 - docker-compose
 
