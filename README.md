@@ -1,4 +1,4 @@
-#### Laravel 8 (API REST) + PHP 8 + Mysql 8
+#### # Laravel 8 (API REST) + PHP 8 + Mysql 8
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/D4Rpj92/Selection-021.png" width="600"></a></p>
 
@@ -35,10 +35,10 @@ Welcome, in this repository you can find the necessary configuration so that you
 - **5.** docker-compose **up -d**
 
 ##### Run Laravel Commands
-- **6.** docker-compose exec laravel-app **composer install**
-- **7.** docker-compose exec laravel-app **php artisan key:generate**
-- **8.** docker-compose exec laravel-app **php artisan passport:install**
-- **9.** docker-compose exec laravel-app **php artisan migrate**
+**6.** docker-compose exec laravel-app **composer install**
+**7.** docker-compose exec laravel-app **php artisan key:generate**
+**8.** docker-compose exec laravel-app **php artisan passport:install**
+**9.** docker-compose exec laravel-app **php artisan migrate**
 
 ## License
 
