@@ -2,25 +2,20 @@
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/D4Rpj92/Selection-021.png" width="600"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<p align="center"></p>
 
-#### About Repository 🚀
+## About Repository 🚀
 
 Welcome, in this repository you can find the necessary configuration so that you can implement your laravel application with docker in the best way.
 
-#### Pre-requirements 📋
+## Pre-requirements 📋
 - docker
 - docker-compose
 
-### Installation 🔧
+## Installation 🔧
 
 ##### # *Clone the Project Repository* 
-- **1.** Located in the root of this repository Execute: **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).**
+- **1.** Located in the root of this repository Execute: **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql)**
     - **Note:** The laravel-mysql repository hosts the source code of your project.
 
 ##### # *Docker*
