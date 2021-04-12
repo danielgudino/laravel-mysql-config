@@ -1,6 +1,6 @@
-###### Laravel 8 (API REST) + PHP 8 + Mysql 8
+## Laravel 8 (API REST) + PHP 8 + Mysql 8
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/D4Rpj92/Selection-021.png" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/D4Rpj92/Selection-021.png" width="600"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -13,26 +13,26 @@
 
 Welcome, in this repository you can find the necessary configuration so that you can implement your laravel application with docker in the best way.
 
-###### Installation requirements:
+## Installation requirements:
 - docker
 - docker-compose
 
 ## Steps:
 
-###### Clone the Project Repository 
+###### 1. Clone the Project Repository 
 - Located in the root of this repository Execute: 
   **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).**
   **Note:** The laravel-mysql repository hosts the source code of your project.
 
-###### Docker
+###### 2. Docker
 - create manual network: **docker network create Webdevelopment**
 - create manual volume database: **docker volume create laraveldbdata**
 
-###### Docker Compose
+###### 3. Docker Compose
 - docker-compose **build**
 - docker-compose **up -d**
 
-###### Run Laravel Commands
+###### 4. Run Laravel Commands
 - docker-compose exec laravel-app **composer install**
 - docker-compose exec laravel-app **php artisan key:generate**
 - docker-compose exec laravel-app **php artisan passport:install**
