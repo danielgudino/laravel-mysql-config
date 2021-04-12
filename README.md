@@ -1,6 +1,4 @@
-# laravel8-php8-config
-
-Configuración de laravel versión 8 como API Rest con php 8 y Mysql 8
+## Laravel 8 (API REST) + PHP 8 + Mysql 8
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/D4Rpj92/Selection-021.png" width="400"></a></p>
 
@@ -10,6 +8,10 @@ Configuración de laravel versión 8 como API Rest con php 8 y Mysql 8
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+## About Repository
+
+Welcome, in this repository you can find the necessary configuration so that you can implement your laravel application with docker in the best way:
 
 ## About Laravel
 
