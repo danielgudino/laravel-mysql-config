@@ -22,7 +22,7 @@ Welcome, in this repository you can find the necessary configuration so that you
 ##### [Clone the Project Repository] 
 - **1.** Located in the root of this repository Execute: 
   - **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).**
-  - **Note:** The laravel-mysql repository hosts the source code of your project.
+- **Note:** The laravel-mysql repository hosts the source code of your project.
 
 ##### [Docker]
 - **2.** create manual network: **docker network create Webdevelopment**
