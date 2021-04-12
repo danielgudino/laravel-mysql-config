@@ -27,18 +27,29 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Installation
+## Installation requirements:
+- docker
+- docker-compose
 
-- 1. git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).
+## Steps:
+
+## Clone the Project Repository 
+- Located in the root of this repository Execute: git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).
      Note: The laravel-mysql repository hosts the source code of your project.
-- 2. docker network create Webdevelopment
-- 3. docker volume create laraveldbdata
-- 4. docker-compose build
-- 5. docker-compose up -d
-- 6. docker-compose exec laravel-app composer install
-- 7. docker-compose exec laravel-app php artisan key:generate
-- 8. docker-compose exec laravel-app php artisan migrate
-- 9. docker-compose exec laravel-app php artisan passport:install
+
+## Docker
+- create manual network: docker network create Webdevelopment
+- create manual volume database: docker volume create laraveldbdata
+
+## Docker Compose
+- docker-compose build
+- docker-compose up -d
+
+## Run Laravel Commands
+- docker-compose exec laravel-app composer install
+- docker-compose exec laravel-app php artisan key:generate
+- docker-compose exec laravel-app php artisan passport:install
+- docker-compose exec laravel-app php artisan migrate
 
 ## License
 
