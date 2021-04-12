@@ -9,15 +9,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-#### About Repository
+#### About Repository 🚀
 
 Welcome, in this repository you can find the necessary configuration so that you can implement your laravel application with docker in the best way.
 
-#### Requirements:
+#### Pre-requirements 📋
 - docker
 - docker-compose
 
-### Steps:
+### Installation 🔧
 
 ##### # *Clone the Project Repository* 
 - **1.** Located in the root of this repository Execute: **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).**
@@ -37,6 +37,9 @@ Welcome, in this repository you can find the necessary configuration so that you
 - **8.** docker-compose exec laravel-app **php artisan passport:install**
 - **9.** docker-compose exec laravel-app **php artisan migrate**
 
-## License
+## Authors ✒️
+* **Daniel Gudiño** - *initial work* - [danielgudino](https://github.com/danielgudino)
+
+## License 📄
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
