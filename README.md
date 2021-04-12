@@ -20,9 +20,8 @@ Welcome, in this repository you can find the necessary configuration so that you
 ### Steps:
 
 ##### [Clone the Project Repository] 
-- **1.** Located in the root of this repository Execute: 
-  - **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).**
-- **Note:** The laravel-mysql repository hosts the source code of your project.
+- **1.** Located in the root of this repository Execute: **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql).**
+    - **Note:** The laravel-mysql repository hosts the source code of your project.
 
 ##### [Docker]
 - **2.** create manual network: **docker network create Webdevelopment**
@@ -33,10 +32,10 @@ Welcome, in this repository you can find the necessary configuration so that you
 - **5.** docker-compose **up -d**
 
 ##### [Run Laravel Commands]
-**6.** docker-compose exec laravel-app **composer install**
-**7.** docker-compose exec laravel-app **php artisan key:generate**
-**8.** docker-compose exec laravel-app **php artisan passport:install**
-**9.** docker-compose exec laravel-app **php artisan migrate**
+- **6.** docker-compose exec laravel-app **composer install**
+- **7.** docker-compose exec laravel-app **php artisan key:generate**
+- **8.** docker-compose exec laravel-app **php artisan passport:install**
+- **9.** docker-compose exec laravel-app **php artisan migrate**
 
 ## License
 
