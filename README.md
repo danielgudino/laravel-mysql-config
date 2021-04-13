@@ -13,13 +13,16 @@ Welcome, in this repository you can find the necessary configuration so that you
 - docker
 - docker-compose
 
-## Installation 🔧
+## Automatic Installation 🔧
+- **sh install.sh**
+
+## Manual Installation 🔧
 
 ##### # _Clone the Project Repository_
 
 - **1.** Located in the root of this repository Execute: **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql)**
   - **Note:** The laravel-mysql repository hosts the source code of your project.
-- **2.** cp ./laravel-mysql/.env.example ./laravel-mysql/.env
+- **2.** **cp ./laravel-mysql/.env.example ./laravel-mysql/.env**
 
 ##### # _Docker_
 
