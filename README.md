@@ -9,33 +9,38 @@
 Welcome, in this repository you can find the necessary configuration so that you can implement your laravel application with docker in the best way.
 
 ## Pre-requirements 📋
+
 - docker
 - docker-compose
 
 ## Installation 🔧
 
-##### # *Clone the Project Repository* 
-- **1.** Located in the root of this repository Execute: **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql)**
-    - **Note:** The laravel-mysql repository hosts the source code of your project.
-- **2.** cp /laravel-mysql/.env.example /laravel-mysql/.env
+##### # _Clone the Project Repository_
 
-##### # *Docker*
+- **1.** Located in the root of this repository Execute: **git clone [https://github.com/danielgudino/laravel-mysql](https://github.com/danielgudino/laravel-mysql)**
+  - **Note:** The laravel-mysql repository hosts the source code of your project.
+- **2.** cp ./laravel-mysql/.env.example ./laravel-mysql/.env
+
+##### # _Docker_
+
 - **3.** create manual network: **docker network create Webdevelopment**
 - **4.** create manual volume database: **docker volume create laraveldbdata**
 
-##### # *Docker Compose*
+##### # _Docker Compose_
+
 - **5.** docker-compose **build**
 - **6.** docker-compose **up -d**
 
-##### # *Run Laravel Commands*
+##### # _Run Laravel Commands_
+
 - **7.** docker-compose exec laravel-app **composer install**
 - **8.** docker-compose exec laravel-app **php artisan key:generate**
 - **9.** docker-compose exec laravel-app **php artisan migrate**
 - **10.** docker-compose exec laravel-app **php artisan passport:install**
 
-
 ## Authors ✒️
-* **Daniel Gudiño** - *initial work* - [danielgudino](https://github.com/danielgudino)
+
+- **Daniel Gudiño** - _initial work_ - [danielgudino](https://github.com/danielgudino)
 
 ## License 📄
 

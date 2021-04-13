@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git clone https://github.com/danielgudino/laravel-mysql
-cp /laravel-mysql/.env.example /laravel-mysql/.env
+cp ./laravel-mysql/.env.example ./laravel-mysql/.env
 docker network create Webdevelopment
 docker volume create laraveldbdata
 docker-compose build

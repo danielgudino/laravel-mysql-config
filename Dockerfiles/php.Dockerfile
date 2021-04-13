@@ -8,7 +8,6 @@ RUN apk --no-cache add git \
     bash \
     libzip-dev \
     libpng-dev \
-    vim \
     zip 
 
 RUN docker-php-ext-install pdo pdo_mysql exif pcntl bcmath gd
