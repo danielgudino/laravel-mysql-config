@@ -19,7 +19,7 @@ Welcome, in this repository you can find the necessary configuration so that you
     - **Note:** The laravel-mysql repository hosts the source code of your project.
 - **2.** cd laravel-mysql
 - **3.** cp .env.example .env
-- **4.** cd..
+- **4.** cd ..
 
 ##### # *Docker*
 - **5.** create manual network: **docker network create Webdevelopment**
