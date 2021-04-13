@@ -30,8 +30,9 @@ Welcome, in this repository you can find the necessary configuration so that you
 ##### # *Run Laravel Commands*
 - **7.** docker-compose exec laravel-app **composer install**
 - **8.** docker-compose exec laravel-app **php artisan key:generate**
-- **9.** docker-compose exec laravel-app **php artisan passport:install**
-- **10.** docker-compose exec laravel-app **php artisan migrate**
+- **9.** docker-compose exec laravel-app **php artisan migrate**
+- **10.** docker-compose exec laravel-app **php artisan passport:install**
+
 
 ## Authors ✒️
 * **Daniel Gudiño** - *initial work* - [danielgudino](https://github.com/danielgudino)
