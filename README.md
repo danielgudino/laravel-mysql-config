@@ -14,6 +14,7 @@ Welcome, in this repository you can find the necessary configuration so that you
 - docker-compose
 
 ## Automatic Installation 🔧
+
 - **sh install.sh**
 
 ## Manual Installation 🔧
@@ -40,6 +41,8 @@ Welcome, in this repository you can find the necessary configuration so that you
 - **8.** docker-compose exec laravel-app **php artisan key:generate**
 - **9.** docker-compose exec laravel-app **php artisan migrate**
 - **10.** docker-compose exec laravel-app **php artisan passport:install**
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/k194Ydf/Selection-022.png" width="800"></a></p>
 
 ## Authors ✒️
 
