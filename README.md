@@ -42,7 +42,7 @@ Welcome, in this repository you can find the necessary configuration so that you
 - **9.** docker-compose exec laravel-app **php artisan migrate**
 - **10.** docker-compose exec laravel-app **php artisan passport:install**
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/k194Ydf/Selection-022.png" width="800"></a></p>
+<p align="center"><img src="https://i.ibb.co/k194Ydf/Selection-022.png" width="800"></p>
 
 ## Authors ✒️
 
