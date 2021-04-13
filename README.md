@@ -44,7 +44,11 @@ Welcome, in this repository you can find the necessary configuration so that you
 
 # Output
 
+##### # _Docker_
+
 <p align="center"><img src="https://i.ibb.co/kg3k1Hg/Selection-023.png" width="800"></p>
+
+##### # _App Laravel_
 
 <p align="center"><img src="https://i.ibb.co/k194Ydf/Selection-022.png" width="800"></p>
 
