@@ -1,4 +1,5 @@
 FROM php:8.0-fpm-alpine
+LABEL maintainer="danielgudino"
 
 ARG NAME_FOLDER=laravel-mysql
 COPY ./${NAME_FOLDER}/composer.lock ./${NAME_FOLDER}/composer.json /var/www/

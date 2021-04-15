@@ -19,6 +19,8 @@ services:
       - ./siteConfig/php/local.ini:/usr/local/etc/php/conf.d/local.ini
       - ./siteConfig/php/php.ini-production:/usr/local/etc/php/php.ini-production
       - ./siteConfig/php/php.ini-development:/usr/local/etc/php/php.ini-development
+    labels:
+      danielgudino: "Author"
     networks:
       - Webdevelopment
 
@@ -39,6 +41,8 @@ services:
       - ./siteConfig/nginx/conf.d/:/etc/nginx/conf.d/
       - ./siteConfig/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./siteConfig/nginx/fastcgi_params:/etc/nginx/fastcgi_params
+    labels:
+      danielgudino: "Author"
     networks:
       - Webdevelopment
 
@@ -60,6 +64,8 @@ services:
       - SERVICE_NAME=mysql
     volumes:
       - laraveldbdata:/var/lib/mysql
+    labels:
+      danielgudino: "Author"
     networks:
       - Webdevelopment
 

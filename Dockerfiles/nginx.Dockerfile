@@ -1,4 +1,5 @@
 FROM nginx:1.18.0-alpine
+LABEL maintainer="danielgudino"
 
 RUN apk update && apk upgrade && apk add bash
 
